@@ -488,7 +488,7 @@ const urlsToCache = [
 ### 👨‍💻 Developer Information
 **Houssein Taleb** - Full Stack Developer
 
-📧 **Email**: [talebhoussein17@gmail.com](mailto:your.email@example.com)  
+📧 **Email**: [talebhoussein17@gmail.com](mailto:talebhoussein17@gmail.com)  
 💼 **LinkedIn**: [linkedin.com/in/houssein-taleb](https://linkedin.com/in/houssein-taleb)  
 ## 📄 License
 
