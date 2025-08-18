@@ -128,10 +128,10 @@ portfolio/
 #### 1. Clone the Repository
 ```bash
 # Clone with HTTPS
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/HousseinT/My-Protfolio.git
 
 # Or clone with SSH
-git clone git@github.com:yourusername/portfolio.git
+git clone git@github.com:HousseinT/portfolio.git
 
 # Navigate to project directory
 cd portfolio
@@ -488,17 +488,8 @@ const urlsToCache = [
 ### 👨‍💻 Developer Information
 **Houssein Taleb** - Full Stack Developer
 
-📧 **Email**: [your.email@example.com](mailto:your.email@example.com)  
-💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
-🌐 **Portfolio**: [your-portfolio-url.com](https://your-portfolio-url.com)  
-📱 **Twitter**: [@yourusername](https://twitter.com/yourusername)
-
-### 🆘 Support
-- **Issues**: [GitHub Issues](https://github.com/yourusername/portfolio/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/portfolio/discussions)
-- **Documentation**: [Wiki](https://github.com/yourusername/portfolio/wiki)
-
+📧 **Email**: [talebhoussein17@gmail.com](mailto:your.email@example.com)  
+💼 **LinkedIn**: [linkedin.com/in/houssein-taleb](https://linkedin.com/in/yourprofile)  
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
