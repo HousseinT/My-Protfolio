@@ -11,6 +11,8 @@ import {
   IMAGE_ALT_TEXTS
 } from '../constants';
 import { handleError, formatText } from '../utils';
+import mainPage from "../assets/ProjectImages/web-main.jpg"
+import authPage from "../assets/ProjectImages/Authentication System.png"
 
 // Optimized style component with proper semantic HTML
 const StyleComponent = ({ header, mainHeader, subHeader }) => {
@@ -156,7 +158,7 @@ Frontend Development Mastery:
 • UI/UX Design Principles: User-centered design approach with conversion optimization and accessibility standards (WCAG compliance)
 • Performance Optimization: Core Web Vitals improvement, resource bundling, and loading speed enhancement techniques`,
     tech: ['HTML5', 'CSS3', 'JavaScript ES6+', 'CSS Grid & Flexbox', 'Responsive Design'],
-    image: 'src/assets/ProjectImages/web-main.jpg',
+    image: mainPage,
     features: [
       'Dynamic Product Showcase',
       'Shopping Cart System',
@@ -208,7 +210,7 @@ Professional Implementation:
 • Scalable architecture supporting user management, email functionality, and OAuth integration
 • Production-ready deployment with Vite bundler and optimized build processes`,
     tech: ['React 18', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Google OAuth', 'TailwindCSS', 'Jest', 'Vite'],
-    image: 'src/assets/ProjectImages/Authentication System.png',
+    image: authPage,
     features: [
       'Secure User Registration & Login',
       'JWT Token Authentication',

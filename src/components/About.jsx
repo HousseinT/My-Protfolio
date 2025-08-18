@@ -22,6 +22,7 @@ import postcss from "../assets/tech-icons/postcss.svg"
 import java from "../assets/tech-icons/java.svg"
 import php from "../assets/tech-icons/php.svg"
 import python from "../assets/tech-icons/python.svg"
+import profile from "../assets/MyPic.jpg"
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -161,7 +162,7 @@ const About = () => {
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-16 h-16 rounded-full overflow-hidden border-3 border-white shadow-lg">
-                    <img src="/src/assets/MyPic.jpg" alt="Profile" className="w-full h-full object-cover" />
+                    <img src={profile} alt="Profile" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h3 className="text-xl font-subheading font-bold text-gray-800">Houssein Taleb</h3>
