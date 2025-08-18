@@ -293,15 +293,75 @@ const Projects = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-5xl font-heading font-bold mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+          {/* Header Badge */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={inView ? { opacity: 1, scale: 1 } : {}}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-50 to-blue-50 border border-primary-200 rounded-full px-6 py-3 mb-8"
+          >
+            <div className="w-2 h-2 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full animate-pulse"></div>
+            <span className="text-primary-600 font-medium text-sm tracking-wide uppercase">Portfolio Showcase</span>
+            <div className="w-2 h-2 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full animate-pulse"></div>
+          </motion.div>
+
+          {/* Main Title */}
+          <motion.h2 
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="text-6xl md:text-7xl font-heading font-bold mb-6 bg-gradient-to-r from-primary-500 to-secondary-500  bg-clip-text text-transparent leading-tight"
+          >
             Featured Projects
-          </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Showcasing professional development experience and technical expertise through real-world applications
-          </p>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-primary to-blue-600 mx-auto rounded-full"></div>
+          </motion.h2>
+
+          {/* Subtitle */}
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-light"
+          >
+            Showcasing professional development experience and technical expertise through 
+            <span className="text-primary-600 font-medium"> real-world applications</span>
+          </motion.p>
+
+          {/* Decorative Elements */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={inView ? { opacity: 1, scale: 1 } : {}}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex items-center justify-center gap-4 mb-8"
+          >
+            <div className="w-16 h-0.5 bg-gradient-to-r from-transparent to-primary-400 rounded-full"></div>
+            <div className="w-3 h-3 bg-gradient-to-r from-primary-500 to-blue-500 rounded-full shadow-lg"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-blue-500 rounded-full shadow-md"></div>
+            <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full shadow-lg"></div>
+            <div className="w-16 h-0.5 bg-gradient-to-l from-transparent to-blue-400 rounded-full"></div>
+          </motion.div>
+
+          {/* Stats or Additional Info */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500"
+          >
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <span>Professional Projects</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+              <span>Full-Stack Development</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+              <span>Modern Technologies</span>
+            </div>
+          </motion.div>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
