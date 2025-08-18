@@ -489,7 +489,7 @@ const urlsToCache = [
 **Houssein Taleb** - Full Stack Developer
 
 📧 **Email**: [talebhoussein17@gmail.com](mailto:your.email@example.com)  
-💼 **LinkedIn**: [linkedin.com/in/houssein-taleb](https://linkedin.com/in/yourprofile)  
+💼 **LinkedIn**: [linkedin.com/in/houssein-taleb](https://linkedin.com/in/houssein-taleb)  
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
