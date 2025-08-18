@@ -16,7 +16,7 @@ const skillsData = [
   { 
     name: "HTML/CSS", 
     level: 100, 
-    icon: css3,
+    icon: html5,
   },
   { 
     name: "JavaScript ES6+", 
@@ -82,7 +82,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
@@ -90,8 +90,8 @@ const Skills = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-heading font-bold mb-4">Skills</h2>
-          <div className="w-20 h-1 bg-primary mx-auto"></div>
+          <h2 className="text-4xl font-heading font-bold mb-4 ">Skills</h2>
+          <div className="w-20 h-1 bg-primary mx-auto "></div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -101,13 +101,13 @@ const Skills = () => {
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="p-6 rounded-lg shadow-md bg-white relative overflow-hidden  hover:${skill.icon} opacity-100"
+              className="group p-6 rounded-lg shadow-md bg-white relative overflow-hidden"
             >
               {skill.icon && (
                 <img 
                   src={skill.icon}
                   alt={`${skill.name} icon`}
-                  className="absolute top-2 right-2 w-16 h-16 opacity-30 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none object-contain"
+                  className="relative center w-10 h-10 opacity-40 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none object-contain "
                 />
               )}
               <div className="flex justify-between mb-2 ">
