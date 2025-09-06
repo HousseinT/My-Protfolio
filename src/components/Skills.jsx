@@ -15,52 +15,52 @@ import java from "../assets/tech-icons/java.svg";
 const skillsData = [
   { 
     name: "HTML/CSS", 
-    level: 100, 
+    level: 90, 
     icon: html5,
   },
   { 
     name: "JavaScript ES6+", 
-    level: 95, 
+    level: 85, 
     icon: javascript,
   },
   { 
     name: "Git & GitHub", 
-    level: 95, 
+    level: 80, 
     icon: git,
   },
   { 
     name: "React.js", 
-    level: 100,
+    level: 80,
     icon: react,
   },
   { 
     name: "Tailwind CSS", 
-    level: 95, 
+    level: 80, 
     icon: tailwindcss,
   },
   { 
     name: "Node.js", 
-    level: 90, 
+    level: 75, 
     icon: nodeJs,
   },
   { 
     name: "MongoDB", 
-    level: 90, 
+    level: 70, 
     icon: mongodb,
   },
   { 
     name: "Python", 
-    level: 80, 
+    level: 60, 
     icon: python,
   },
   { 
     name: "PHP", 
-    level: 85, 
+    level: 70, 
     icon: php,
   },
   { 
     name: "Java", 
-    level: 75, 
+    level: 60, 
     icon: java,
   },
 ];
